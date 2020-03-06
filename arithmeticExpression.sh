@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
-echo "Sorting Arithmetic Computation Problem UC_7 "
+echo "Sorting Arithmetic Computation Problem UC_8 "
 
 read -p "Enter the Three Input: " a b c
 
@@ -25,4 +25,3 @@ echo "array" ${a[@]}
 
 # sort the result decending order
 printf '%s\n' "${a[@]}" | sort -n -r
-
