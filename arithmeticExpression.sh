@@ -16,7 +16,9 @@ a[4]=$p
 
 echo "Dict " ${a[@]}
 #read the Dict and store in Array
+count=o
 for i in ${a[@]}
 do
-echo "value" ${a[@]}
+	a[((count++))]=$i
 done
+echo "array" ${a[@]}
