@@ -24,5 +24,8 @@ done
 echo "array" ${a[@]}
 
 # sort the result decending order
+echo "Decending Order"
 printf '%s\n' "${a[@]}" | sort -n -r
-
+# sort the result ascending order
+echo "Ascending Order"
+printf '%s\n' "${a[@]}" | sort -n
