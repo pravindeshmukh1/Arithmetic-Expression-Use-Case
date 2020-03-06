@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
-echo "Sorting Arithmetic Computation Problem UC_7 "
+echo "Sorting Arithmetic Computation Problem UC_9 "
 
 read -p "Enter the Three Input: " a b c
 
